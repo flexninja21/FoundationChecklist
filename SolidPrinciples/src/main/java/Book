@@ -1,0 +1,32 @@
+public class Book {
+
+    private String name;
+    private String author;
+    private String text;
+
+    //constructor, getters and setters
+
+    // methods that directly relate to the book properties
+    public String replaceWordInText(String word) {
+        return text.replaceAll(word, text);
+    }
+
+    public boolean isWordInText(String word) {
+        return text.contains(word);
+    }
+
+    void printTextToConsole() {
+        // our code for formatting and printing the text
+    }
+
+    // the above code does not follow it because it does more than one thing so it needs to be split manipulating text and printing text
+    
+    //One
+    public class book printer {
+        void printTextToconsole() {
+
+        }
+    }
+
+
+}

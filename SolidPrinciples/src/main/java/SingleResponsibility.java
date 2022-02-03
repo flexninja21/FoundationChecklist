@@ -10,4 +10,7 @@ public class SingleResponsibility {
     //a class must only have a single job/responsibility/functionality and do it really well
 
 
+
+
+
 }
