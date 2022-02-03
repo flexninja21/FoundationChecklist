@@ -20,7 +20,7 @@ public class Book {
     }
 
     // the above code does not follow it because it does more than one thing so it needs to be split manipulating text and printing text
-    
+
     //One
     public class book printer {
         void printTextToconsole() {
